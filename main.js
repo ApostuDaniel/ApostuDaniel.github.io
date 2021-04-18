@@ -144,9 +144,9 @@ const buttonEvent = async () =>{
 
 
 const getCurrentCountry = async () => {
-    const ufdata = await fetch('http://ip-api.com/json')
+    const ufdata = await fetch('https://ipapi.co/json/')
     const fdata = await ufdata.json()
-    return fdata["country"]
+    return fdata["country_name"]
 }
 
 const statsCurrentCountry = async () =>{
