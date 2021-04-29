@@ -1,52 +1,149 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Covid-19 Statistics</title>
-        <link rel="stylesheet" href="style.css">
-        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100;1,300;1,400&family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.1.0/chart.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <title>Apostu Daniel</title>
     </head>
     <body>
-        <header>
-            <h1>Covid-19 Tracker</h1>
-        </header>
-        <div class="headContainer">
-        <section id="userInteraction">
-        <h2>Your country: </h2>
-        <input list="countries" id="input" >
-        <datalist id="countries">
-        </datalist>
-        <button onclick="buttonEvent()">Get Statistics</button>
-        </section>
-        <section id="Total">
-            <h3>Total</h3>
-            <ul>
-                <li id="totalConfirmed">Confirmed: </li>
-                <li id="totalRecovered">Recovered: </li>
-                <li id="totalDeaths">Deaths: </li>
-            </ul>
-        </section>
-        <section id="Today">
-            <h3>Today</h3>
-            <ul>
-                <li id="todayConfirmed">Confirmed: </li>
-                <li id="todayRecovered">Recovered: </li>
-                <li id="todayDeaths">Deaths: </li>
-                <li id="activeCases"> Active: </li>
-            </ul>
-        </section>
+        <div class="grid-container">
+            <article class="side-content">
+                <section class="biografie">
+                    <img src="images/Profil.JPG" alt="Profile picture">
+                    <p>Birthdate : <strong>28/12/2001</strong></p>
+                    <p>Country of origin : <strong>Moldova</strong></p>
+                    <p>Nationality: <strong>Moldovan</strong></p>
+                    <p>Citezenship: <strong>Moldovan, Romanian</strong></p>
+                    <p>Residence: <strong>Grozești, Nisporeni, R.Moldova</strong></p>
+                </section>
+                <section class="contact">
+                    <h2>CONTACT</h2>
+                    <p>Tel: <strong>+373 68 489 590</strong></p>
+                    <p>email: <a href="mailto: apostudanbs@gmail.com"> <strong>apostudanbs@gmail.com</strong></a></p>
+                    <p><a href="https://www.linkedin.com/in/apostu-daniel-1a265a20a/">LinkedIn</a></p>
+                    <p><a href="https://github.com/ApostuDaniel">Github</a></p>
+                </section>
+                <section class="langues">
+                    <h2>Languages</h2>
+                    <table>
+                        <tr>
+                            <th>Romanian</th>
+                            <td>Native language</td>
+                        </tr>
+                        <tr>
+                            <th>English</th>
+                            <td>Independent User</td>
+                        </tr>
+                        <tr>
+                            <th>French</th>
+                            <td>Novice</td>
+                        </tr>
+                    </table>
+                </section>
+                <section class="profesionel">
+                    <h2>Skils and Knowledge</h2>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>C++</li>
+                        <li>Computer Architecture</li>
+                        <li>Data Structures</li>
+                        <li> Algorithms</li>
+                        <li>Bash</li>
+                        <li>VS Code</li>
+                        <li>Microsoft Office</li>
+                    </ul>
+                    </section>
+            </article>
+            <article class="main-content">
+               <section class="about-me">
+                   <h1>Daniel Apostu</h1>
+                   <h2>About me</h2>
+                   <p>
+                    In my last year in highschool as a humanities student, 
+                    as all kids my age I was struggling when it came to what I should do next. 
+                    During summer I tried my hand at python, and it was fun, 
+                    so i decided to follow up on it and study Computer Science , 
+                    and luckily I was accepted in the Computer Science department at UAIC Iasi. 
+                    Right now I am enrolled in the first year at UAIC, and outside of university 
+                    I am participating in the JavaScript Full Stack course by elitech.dev so that I can 
+                    diversify my range of knowledge and find a niche that I feel comfortable in. 
+                    </p>
+               </section>
+               <section class="knowledge">
+                    <h2>ACADEMICS</h2>
+                    <div class="elitech.dev">
+                    <h3>Full Stack JavaScript Courses</h3>
+                    <p><em>By Ion Iuncu and elitech.dev</em></p>
+                    <p>11th of march, 2021 - ongoing</p>
+                    </div>
+                    <div class="Licenta">
+                    <h3>Bachelor Studies in Computer Science</h3>
+                    <p><em>Al.I.Cuza University, Iași, România</em></p>
+                    <p>2020 - ongoing</p>
+                    </div>
+                    <div class="Liceu">
+                        <h3>Primary/Middle/Highschooll</h3>
+                        <p><em> Prometeu Highschool, Grozesti </em></p>
+                        <p>2008 - 2020</p>
+                    </div>
+               </section>
+               <section class="experienta">
+                   <h2>Work Experince</h2>
+               </section>
+               <section class="voluntariat">
+                   <h2>Volunteering Activities</h2>
+                   <h3>Media&PR</h3>
+                   
+                   <p><em>ATRAG, Asociatia Tinerilor Romani din Afara Granitelor, Iasi</em></p>
+               </section>
+            <section class="personal">
+                <h2>Qualities</h2>
+                <ul>
+                    <li>Proactive</li>
+                    <li>Responsable</li>
+                    <li>Autodidact</li>
+                    <li>Pasionate</li>
+                </ul>
+            </section>
+            <section class="personalProjects">
+                <h2>Personal Projects</h2>
+                <section class="JS Projects">
+                    <h2>JavaScript</h2>
+                    <div class="listProject">
+                    <h3>Task List</h3>
+                    <p>A small website that allows you to create diffrent tasks, reorder and remove them</p>
+                    <p><a href="https://github.com/ApostuDaniel/Javascript_Assignmets/tree/main/Assingment2" target="_blank"><em>https://github.com/ApostuDaniel/Javascript_Assignmets/tree/main/Assingment2</em></a></p>
+                    </div>
+                    <div class="shopProject">
+                        <h3>Shop Interface</h3>
+                        <p>A project for deepening my understanding of JS objects: A small website that allows you to create diffrent products, remove and buy them</p>
+                        <p><a href="https://github.com/ApostuDaniel/Javascript_Assignmets/tree/main/Assignment3" target="_blank"><em>https://github.com/ApostuDaniel/Javascript_Assignmets/tree/main/Assignment3</em></a></p>
+                    </div>
+                    <div class="coronaTracker">
+                        <h3>Covid-19 Tracker</h3>
+                        <p>A Covid-19 Tracker I made to learn how to use API's, you can check it out here: <a href="https://apostudaniel.github.io/covid_stats/" target="_blank">Covid Statistics</a></p>
+                        <p><a href="https://github.com/ApostuDaniel/Javascript_Assignmets/tree/main/Assignment4" target="_blank"><em>https://github.com/ApostuDaniel/Javascript_Assignmets/tree/main/Assignment4</em></a></p>
+                    </div>
+                    <div class="shopPageRevisited">
+                        <h3>Shop Interface revisited</h3>
+                        <p>First encounter with node.js: just like shop interface but it uses a node.js express server to store objects and modify them</p>
+                        <p><a href="https://github.com/ApostuDaniel/Javascript_Assignmets/tree/main/Assingnment5" target="_blank"><em>https://github.com/ApostuDaniel/Javascript_Assignmets/tree/main/Assignment5</em></a></p>
+                    </div>
+                </section>
+                <section class="C++Prtojects">
+                    <h2>C++</h2>
+                    <div class="Banker Project">
+                        <h3>Banker Project</h3>
+                        <p>A project I started to deepen my understanding of OOP, databases and GUI's in C++ (work in progress)</p>
+                        <p><a href="https://github.com/ApostuDaniel/BankerProj" target="_blank"><em>https://github.com/ApostuDaniel/BankerProj</em></a></p>
+                    </div>
+                    
+                </section>
+            </section>
+            </article>
         </div>
-        <div class="graphs_container">
-            <section id="confirmed-graphs" class="graph-section">
-            </section>
-            <section id="recovered-graphs" class="graph-section">
-            </section>
-            <section id="dead-graphs" class="graph-section">
-            </section>
-        </div>
-        <script src="main.js"></script>
     </body>
 </html>

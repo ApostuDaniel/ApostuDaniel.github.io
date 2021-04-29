@@ -1,0 +1,109 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #3b6273;
+}
+h1{
+    color: #8f754f;
+    font-size: 2em;
+    margin-top: 0px;
+}
+
+.grid-container{
+    align-self: center;
+    margin: -5px 50px 20px 20px;
+    height: 100%;
+    width: 90%;
+    display: inline-grid;
+    grid-template-columns: 1.1fr 1.9fr;
+}
+.main-content h2{
+    margin: 0px;
+    margin-left: -5px;
+    text-align: right;
+    color: #8f754f;
+   
+}
+.about-me h2{
+    margin: 1px;
+}
+
+.main-content h3{
+    margin-bottom: -1em;
+}
+.side-content{
+    color: white;
+    background-color: black;
+}
+.side-content *{
+    margin-left: 5px;
+}
+
+.side-content img{
+    margin-left: 0px;
+    margin-bottom: 10px;
+    align-self: center;
+}
+
+.side-content h2{
+    margin-bottom: 1em;
+    color: #8f754f;
+}
+.side-content p{
+    margin: 0px 5px;
+}
+
+.side-content section{
+    margin-bottom: 4em;
+}
+
+.main-content em{
+
+    font-style:normal;
+    font-weight: normal;
+    font-size: 1.2em;
+    color: #8f754f;
+    margin-bottom: -5px;
+}
+.main-content *{
+    margin-left: 5px;
+}
+
+
+.main-content section{
+    border-top: 10px solid #8f754f;
+}
+
+.personalProjects section{
+    border-top: 10px transparent;
+}
+
+.personalProjects section h2{
+    text-align: left;
+}
+
+.main-content li{
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    color: teal;
+}
+
+.side-content a{
+    color: white;
+    border-bottom: 1px solid transparent;
+    transition-duration: 400ms;
+}
+img{
+    padding-left: 10px;
+}
+
+
+a:hover{
+    border-bottom: 1px solid white;
+}
+.charllote{
+    margin-bottom: 10px;
+}
+
+
